@@ -1,0 +1,16 @@
+Tasks:
+    Practice with various collection classes
+    1> List Practice
+        {
+            - create an ArrayList of the list
+            - Add element to the list
+            - Remove an element from the list
+            - Iterate and print all element
+        }
+    2> Set Practice
+        {
+            - create a Hashset of the String
+            - Add element to the set
+            - Check if an element to the set
+            - Iterate and print all element
+        }
