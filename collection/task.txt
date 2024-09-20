@@ -14,3 +14,16 @@ Tasks:
             - Check if an element to the set
             - Iterate and print all element
         }
+    3> Map Practice
+        {
+            - create a HashMap of string keys and integers values
+            - Add key-value pairs to the Map
+            - Retrieve a value by its keys
+            - Iterate and print all keys-value pairs
+        }
+    4> Queue Practice
+        {
+            - create a Queueof string
+            - Add element to the Queue
+            - Remove and print the head of the Queue unti it is empty
+        }
