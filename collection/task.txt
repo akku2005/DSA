@@ -27,3 +27,9 @@ Tasks:
             - Add element to the Queue
             - Remove and print the head of the Queue unti it is empty
         }
+    5> Stack Practice
+        {
+            - create a Stack of string
+            - Add element to the stack
+            - Remove and print the top of the stack until it is empty
+        }

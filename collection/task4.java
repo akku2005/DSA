@@ -1,3 +1,4 @@
+// Practice Question of Queue
 package collection;
 
 import java.util.LinkedList;
