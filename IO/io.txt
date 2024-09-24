@@ -4,3 +4,7 @@ File I/O:
             File i/o ka matlab hota hai file se data read karna aur file mein data write karna .java mein File i/o le liye FileReader
             , BufferReader , BufferedWriter jaise classes ka use hota hai.
         }
+Serialization:
+        {
+            
+        }
