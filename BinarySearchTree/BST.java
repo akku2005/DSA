@@ -1,0 +1,50 @@
+package BinarySearchTree;
+
+public class BST {
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            this.left = null; // Initialize left child
+            this.right = null; // Initialize right child
+        }
+    }
+
+    public static Node insert(Node root, int val) {
+        if (root == null) {
+            root = new Node(val);
+            return root;
+        }
+        if (root.data > val) {
+            // Insert in left subtree
+            root.left = insert(root.left, val);
+        } else {
+            // Insert in right subtree
+            root.right = insert(root.right, val);
+        }
+        return root;
+    }
+
+    public static void inorder(Node root) {
+        if (root == null) {
+            return;
+        }
+        inorder(root.left);
+        System.out.print(root.data + " "); // Use print instead of println for better formatting
+        inorder(root.right);
+    }
+
+    public static void main(String[] args) {
+        int value[] = { 5, 1, 3, 4, 2, 7 };
+        Node root = null; // Change type to Node
+
+        for (int i = 0; i < value.length; i++) {
+            root = insert(root, value[i]);
+        }
+        inorder(root);
+        System.out.println(); // Print a new line after traversal
+    }
+}
